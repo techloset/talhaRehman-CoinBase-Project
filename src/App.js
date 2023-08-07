@@ -1,10 +1,13 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className=' bg-red-500'>Tailwind CSS Working</h1>
-    </div>
+    <>
+    <Header/>
+    <Footer/>
+    </>
   );
 }
 
