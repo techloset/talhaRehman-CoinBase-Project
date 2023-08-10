@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .heroBg{
+        background-image: url("/src/images/BG.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+    }
+    .heroBg2{
+        background-image: url("/src/images/BG-1.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left ;
+    }
+    .heroBg3{
+        background-image: url("/src/images/BG-1.svg");
+    }
+    .BlogContentHero{
+        background-image: url("/src/images/BlogContentBg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+
+    }
+}
