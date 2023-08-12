@@ -18,6 +18,13 @@
     .heroBg3{
         background-image: url("/src/images/BG-1.svg");
     }
+    .landingSection5{
+        background-image: url("/src/images/Section5Landing.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left ;
+
+    }
     .BlogContentHero{
         background-image: url("/src/images/BlogContentBg.svg");
         background-repeat: no-repeat;
@@ -25,4 +32,34 @@
         background-position: left;
 
     }
+    .cardborderLanding{
+        background: linear-gradient(white, white) padding-box,
+                  linear-gradient(to right, darkblue, darkorchid) border-box;
+      border-radius: 15px 15px 15px 15px;
+      border: 1px solid transparent;
+    
+    }
+    .section7Bg{
+        background-image: url("/src/images/section7bg.svg");
+        background-repeat: no-repeat;
+        background-size: cover ;
+        background-position: left ;
+
+    }
+    .section9{
+        background-image: url("/src/images/section9.svg");
+        background-repeat: no-repeat;
+        background-size: cover ;
+        background-position: left ;
+    }
+    .login-header{
+        background-image: linear-gradient(rgba(253, 116, 155, 1), rgba(40, 26, 200, 1));
+   }
+   .cardborder{
+    background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, darkblue, darkorchid) border-box;
+  border-radius: 0 0 24px 24px;
+  border: 1px solid transparent;
+  border-top: 0;
 }
+} 

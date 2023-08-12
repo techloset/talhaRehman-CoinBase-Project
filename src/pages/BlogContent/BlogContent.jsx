@@ -11,7 +11,7 @@ function BlogContent() {
         <>
             {/* Hero Section Blog Content Page */}
             <div className="BlogContentHero min-h-[100vh]  flex justify-center">
-                <div className='w-[50%] mt-64'>
+                <div className='sm:w-[50%] xs:w-[80%]  sm:mt-60 xs:mt-44'>
                     <h2 className='text-3xl text-center text-white  leading-snug'>
                         ETH TO NAIRA EXCHANGE RATE IS NOW #400 PER Transactions
                     </h2>
@@ -22,7 +22,7 @@ function BlogContent() {
                     </p>
                 </div>
             </div>
-            <div className='max-w-[47%] mx-auto '>
+            <div className='md:max-w-[50%] xs:max-w-[90%] sm:max-w-[80%]  mx-auto '>
                 <p className='text-base leading-8'>
                     But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
                     <br />
@@ -39,7 +39,7 @@ function BlogContent() {
                     Determining the type of cruise is another aspect of planning a chartered yachting trip. You can have as little or many crew members as the ship will hold. A captain takes all the worries out of navigating and onboard housekeeping services make it a real vacation that rivals the finest hotel services. You can also choose to have a chef and service crew as part of your vacation package.
 
                 </p>
-                <div className='grid grid-cols-2 gap-5 mt-20' >
+                <div className='grid grid-cols-2 gap-5 mt-20 xs:grid-cols-1' >
                     <div>
                         <p className='text-base leading-[30px]'>
                             If you like the idea of knowing what it is really like to sail, but don’t want to risk safety, you can charter a sailing cruise that puts you in the role of deck hand. A competent crew will direct you as to your “chores” for keeping the ship in top shape and on course.
@@ -61,25 +61,25 @@ function BlogContent() {
                     </p>
                 </div>
 
-                <div className='grid grid-cols-2 mt-24 gap-10'>
+                <div className='grid grid-cols-2 xs:grid-cols-1 mt-24 gap-10'>
                     <div className=''>
                         <h3 className='font-bold text-base italic '>Tags: Business, Capital, Finance</h3>
                     </div>
-                    <div className='flex justify-end items-center'>
+                    <div className='flex justify-end xs:justify-start items-center'>
                         <p className='mr-4'>Share with</p>
                         <img src={SocialIconsF} alt="Social Icon Facebook Twitter youtube" />
                     </div>
                     <div><h3 className='font-bold text-lg w-[60%]'>
                         How to sell your iTunes giftcard with us
                     </h3></div>
-                    <div className='flex justify-end'>
+                    <div className='flex justify-end xs:justify-start'>
                         <img src={Exchange5} alt="Exchange 5 Products and get 1 free product" />
                     </div>
                     <div>
-                        <span className='text-xs text-gray-400 '>Prev Post</span>
+                        <span className='text-xs text-gray-400 xs:text-left'>Prev Post</span>
                     </div>
                     <div>
-                    <span className='text-xs text-gray-400  flex justify-end'>Prev Post</span>
+                    <span className='text-xs text-gray-400  flex justify-end xs:justify-start'>Next Post</span>
                     </div>
                 </div>
 
@@ -87,9 +87,9 @@ function BlogContent() {
                     <h2 className='font-bold text-2xl'>Leave A Comment</h2>
                     <p className='font-normal text-base mt-3 text-[#333333]'>Your email address will not be published. Required fields are marked *</p>
                     <form action="" className='mt-6 mb-14'>
-                        <input type="text" placeholder='Name *' className=' px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500p-4 w-96 ' required/>
-                        <input type="Email" placeholder='Email *' className=' ml-3 px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500p-4 w-96  ' required/>
-                        <textarea rows="8" name="message" id="message" placeholder="Your Comment" class="w-full mt-8 px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"></textarea>
+                        <input type="text" placeholder='Name *' className=' px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full ' required/>
+                        <input type="Email" placeholder='Email *' className=' md:ml-3 px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full xs:mt-4 sm:mt-4 xs:ml-0 sm:ml-0  ' required/>
+                        <textarea rows="8" name="message" id="message" placeholder="Your Comment" class="w-full mt-8 px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"></textarea>
                     <button type='submit' className='mt-3'>
                         <img src={Publish} alt="Publish" />
                     </button>

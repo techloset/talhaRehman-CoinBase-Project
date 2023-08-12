@@ -23,7 +23,7 @@ module.exports = {
 
     extend: {
       screens: {
-        'xs': {'min': '300px', 'max': '576px'},
+        'xs': {'min': '10px', 'max': '576px'},
         // Customize screen size for all mobile devices min-width: 300px and max-width:576px
       }
     },

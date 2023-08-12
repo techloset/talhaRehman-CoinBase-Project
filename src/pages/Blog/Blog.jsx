@@ -1,5 +1,4 @@
 import React from 'react'
-import './Blog.css'
 import Bloghero from '../../images/BlogHero.svg'
 import main1 from '../../images/exchange1.svg'
 import main2 from '../../images/main2.svg'
@@ -44,9 +43,9 @@ function Blog() {
     return (
         <>
 
-            <div className="heroBg min-h-[100vh]  flex justify-around ">
+            <div className="heroBg min-h-[120vh]  lg:flex lg:justify-around sm:grid  sm:grid-cols-1 xs:grid  xs:grid-cols-1  ">
 
-                <div className='w-[27%] mt-36'>
+                <div className='lg:w-[34%] sm:w-[50%] xs:w-[85%] xs:mx-auto mt-36 xs:mt-16 sm:mx-auto lg:mx-0'>
                     <div className='text-white text-xs mb-5'><span>HOME/BLOG</span></div>
                     <h2 className='text-5xl text-white font-["Open Sans"] leading-snug'>
                         Stay updated,
@@ -57,12 +56,12 @@ function Blog() {
                     </p>
 
                 </div>
-                <div >
+                <div className='sm:mx-auto lg:mx-0' >
                     <img src={Bloghero} alt="Bitcoin" className='mt-20' />
                 </div>
             </div>
 
-            <div className='w-[70%] mx-auto'>
+            <div className='w-[70%] xs:w-[90%] mx-auto'>
                 {/* Map Function to make 3 card  */}
                 {Cards.map((info) => (
                     <div className='mt-9 mb-5'>
@@ -70,7 +69,7 @@ function Blog() {
 
                         {info.mainimg}
                         <div className='flex flex-col justify-center items-center  cardborder'>
-                            <h2 className='mt-7' >{info.heading}</h2>
+                            <h2 className='mt-7 mx-4' >{info.heading}</h2>
                             <p className='flex justify-center mt-7  text-xs  '>
                                 <span>{info.subp}</span>
                                 <hr className='border-t-2 w-4 rotate-90 mx-2 mt-2 border-[#333333] ' />
@@ -86,11 +85,11 @@ function Blog() {
 
 
             </div>
-            <div className='flex justify-center mt-24 mb-40'>
+            <div className='flex flex-wrap justify-center mt-24 mb-40'>
 
 
                 <nav aria-label="Page navigation example">
-                    <ul class="inline-flex -space-x-px text-base h-10">
+                    <ul class="inline-flex xs:flex-wrap xs:justify-center -space-x-px text-base h-10">
                         <li>
                             {/* <a href="#" class="flex items-center justify-center px-4 h-10 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</a> */}
                         </li>

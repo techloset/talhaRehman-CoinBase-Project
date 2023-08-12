@@ -1,5 +1,4 @@
 import React from 'react'
-import './Footer.css'
 import footer_logo from '../../images/Footer-Logo.svg'
 import footer_social from '../../images/Social-Media-Icons.svg'
 import mask from '../../images/Mask.png'
@@ -9,10 +8,10 @@ function Footer() {
     return (
         <>
             <div className='bg-[#151515] text-white'>
-                <div className='grid grid-cols-12 gap-1 py-20 max-w-[90%] mx-auto'>
-                    <div className='col-span-4 p-4'>
+                <div className='grid grid-cols-12  gap-1 py-20 max-w-[90%] mx-auto'>
+                    <div className='lg:col-span-4 sm:col-span-6 xs:col-span-12 p-4'>
                         <div><img src={footer_logo} alt="logo"  /></div>
-                        <div className='mt-10 w-[60%]'>
+                        <div className='mt-10 w-[60%] xs:w-[90%]'>
                             <p className='text-[#A2A2A2] text-sm font-normal text-justify leading-7'> Fusce ut elit aliquet, fermentum leo vel, tempus nunc. Fusce eu rhoncus augue. Fusce vel metus pharetra, fermentum</p>
                         </div>
                         <div className='mt-8'>
@@ -21,7 +20,7 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-span-2'>
+                    <div className='lg:col-span-2 sm:col-span-6 sm:mt-3 lg:mt-0 xs:col-span-12 xs:ml-4 xs:mt-8'>
                         <div><h2 className='font-medium text-lg'>CoinBase Links</h2></div>
                         <div className='mt-8'>
                             <ul className='text-[#A2A2A2] flex flex-col gap-4'>
@@ -33,7 +32,7 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className='col-span-2'>
+                    <div className='lg:col-span-2 sm:col-span-6 sm:mt-10 lg:mt-0 xs:col-span-12 xs:ml-4 xs:mt-8'>
                         <div><h2 className='font-medium text-lg'>Contact Us</h2></div>
                         <div className='mt-8'>
                             <ul className='text-[#A2A2A2] flex flex-col gap-4'>
@@ -48,7 +47,7 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className='col-span-4 lg:ml-24'>
+                    <div className='lg:col-span-4 sm:col-span-6 xs:col-span-12 lg:ml-24 sm:mt-10 lg:mt-0 xs:ml-4 xs:mt-8'>
                     <div><h2 className='font-medium text-lg'>CoinBase Instagram</h2></div>
                         <div className='mt-8 flex flex-wrap gap-3 max-w-xs'>
                             <img src={mask_2} alt="Instagram Mask" />
