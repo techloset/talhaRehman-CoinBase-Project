@@ -2,64 +2,90 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    .heroBg{
+@layer components {
+    .heroBg {
         background-image: url("/src/images/BG.svg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left;
     }
-    .heroBg2{
+
+    .heroBg2 {
         background-image: url("/src/images/BG-1.svg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: left ;
+        background-position: left;
     }
-    .heroBg3{
+
+    .heroBg3 {
         background-image: url("/src/images/BG-1.svg");
     }
-    .landingSection5{
+
+    .landingSection5 {
         background-image: url("/src/images/Section5Landing.svg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: left ;
+        background-position: left;
 
     }
-    .BlogContentHero{
+
+    .BlogContentHero {
         background-image: url("/src/images/BlogContentBg.svg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left;
 
     }
-    .cardborderLanding{
+
+    /* .cardborderLanding{
         background: linear-gradient(white, white) padding-box,
                   linear-gradient(to right, darkblue, darkorchid) border-box;
       border-radius: 15px 15px 15px 15px;
       border: 1px solid transparent;
     
+    } */
+    .shadowTrade {
+        border-radius: 30px;
+        background: #FFF;
+        box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.10);
     }
-    .section7Bg{
+    .shadowBlog{
+        border-radius: 15px;
+background: #FFF;
+box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    .section7Bg {
         background-image: url("/src/images/section7bg.svg");
         background-repeat: no-repeat;
-        background-size: cover ;
-        background-position: left ;
+        background-size: cover;
+        background-position: left;
 
     }
-    .section9{
+
+    .section9 {
         background-image: url("/src/images/section9.svg");
         background-repeat: no-repeat;
-        background-size: cover ;
-        background-position: left ;
+        background-size: cover;
+        background-position: left;
     }
-    .login-header{
+
+    .login-header {
         background-image: linear-gradient(rgba(253, 116, 155, 1), rgba(40, 26, 200, 1));
-   }
-   .cardborder{
-    background: linear-gradient(white, white) padding-box,
-              linear-gradient(to right, darkblue, darkorchid) border-box;
-  border-radius: 0 0 24px 24px;
-  border: 1px solid transparent;
-  border-top: 0;
+    }
+
+    .cardborder {
+        background: linear-gradient(white, white) padding-box,
+            linear-gradient(to right, darkblue, darkorchid) border-box;
+        border-radius: 0 0 24px 24px;
+        border: 1px solid transparent;
+        border-top: 0;
+    }
+
+    .fontcolorabout {
+        background: var(--3, linear-gradient(180deg, #FD749B 75%, #281AC8 90%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
-} 

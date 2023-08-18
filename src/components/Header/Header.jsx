@@ -8,8 +8,8 @@ const Header = () => {
   const [navbar, setNavbar] = useState(false);
   return (
     <>
-      <div className='grid grid-cols-12 max-w-[92%] mx-auto py-6 xs:hidden'>
-        <div className="logo lg:col-span-3 my-auto sm:col-span-6">
+      <div className='grid grid-cols-12 max-w-[87%] mx-auto py-[2.35rem] xs:hidden'>
+        <div className="logo lg:col-span-3 ml-2 my-auto sm:col-span-6">
           <Link to="./" ><img src={Logo} alt="" /></Link>
         </div>
         <button data-collapse-toggle="navbar-default" type="button" class="xs:inline-flex xs:items-center xs:p-2 xs:w-10 xs:h-10 xs:justify-end text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -35,9 +35,9 @@ const Header = () => {
           </ul>
 
         </div>
-        <div className="login flex justify-center col-span-5 my-auto ml-36 sm:hidden lg:flex xs:hidden">
+        <div className="login flex justify-center col-span-5 my-auto ml-28 sm:hidden lg:flex xs:hidden">
           <h3 className='text-[#333]  text-base font-bold text-center my-auto '>Sell bitcoin/Giftcard</h3>
-          <button className='login-header text-white rounded-3xl text-center h-14 w-40 ml-16 px-7'>Login</button>
+          <button className='login-header text-white rounded-3xl text-center h-14 w-40 ml-14 px-7'>Login</button>
         </div>
       </div>
 

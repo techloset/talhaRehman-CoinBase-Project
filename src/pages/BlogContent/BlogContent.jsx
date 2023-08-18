@@ -11,8 +11,8 @@ function BlogContent() {
         <>
             {/* Hero Section Blog Content Page */}
             <div className="BlogContentHero min-h-[100vh]  flex justify-center">
-                <div className='sm:w-[50%] xs:w-[80%]  sm:mt-60 xs:mt-44'>
-                    <h2 className='text-3xl text-center text-white  leading-snug'>
+                <div className='sm:w-[55%] xs:w-[80%]  sm:mt-60 xs:mt-44'>
+                    <h2 className='text-[2rem] text-center text-white font-bold  leading-[45px]'>
                         ETH TO NAIRA EXCHANGE RATE IS NOW #400 PER Transactions
                     </h2>
                     <p className='flex justify-center mt-3 text-white text-xs'>
@@ -22,7 +22,7 @@ function BlogContent() {
                     </p>
                 </div>
             </div>
-            <div className='md:max-w-[50%] xs:max-w-[90%] sm:max-w-[80%]  mx-auto '>
+            <div className='md:max-w-[52%] xs:max-w-[90%] sm:max-w-[80%]  mx-auto '>
                 <p className='text-base leading-8'>
                     But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
                     <br />
@@ -39,7 +39,7 @@ function BlogContent() {
                     Determining the type of cruise is another aspect of planning a chartered yachting trip. You can have as little or many crew members as the ship will hold. A captain takes all the worries out of navigating and onboard housekeeping services make it a real vacation that rivals the finest hotel services. You can also choose to have a chef and service crew as part of your vacation package.
 
                 </p>
-                <div className='grid grid-cols-2 gap-5 mt-20 xs:grid-cols-1' >
+                <div className='grid grid-cols-2 gap-11 mt-14 xs:grid-cols-1' >
                     <div>
                         <p className='text-base leading-[30px]'>
                             If you like the idea of knowing what it is really like to sail, but don’t want to risk safety, you can charter a sailing cruise that puts you in the role of deck hand. A competent crew will direct you as to your “chores” for keeping the ship in top shape and on course.
