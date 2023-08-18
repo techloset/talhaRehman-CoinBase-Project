@@ -245,9 +245,9 @@ GET 1 FREE PRODUCT.</h2>
       </div>
 
       {/* Section 7 */}
-      <div className='section7Bg min-h-[160vh] xs:min-h-[150vh]'>
+      <div className='section7Bg min-h-[180vh] xs:min-h-[150vh]'>
         <div className='max-w-[80%] mx-auto '>.
-          <div className='w-[30%]  xs:w-[90%] mx-auto sm:mt-[420px] xs:mt-56'>
+          <div className='w-[30%]  xs:w-[90%] mx-auto sm:mt-[420px] xs:mt-80'>
             <h2 className='text-center font-bold text-[28px]  text-white'>10,000 Satisfied clients
               around the world</h2>
             <hr className='w-12 border-2 mx-auto mt-5 border-[#FD749B] rounded-md' />
@@ -282,7 +282,7 @@ GET 1 FREE PRODUCT.</h2>
 
       {/* Section 9 */}
       <div className='section9 max-h-[82vh]  xs:hidden'>.
-        <div className='flex mt-96 justify-center  flex-wrap' >
+        <div className='flex xl:mt-[300px] lg:mt-[280px] sm:mt-[250px] justify-center  flex-wrap' >
           <div className='mr-5 '>
             <img src={iphone1} alt="" />
           </div>
@@ -294,7 +294,7 @@ GET 1 FREE PRODUCT.</h2>
       </div>
 
       {/* Section 10 */}
-      <div className='sm:mt-[25%]  xs:mt-20'>
+      <div className='xl:mt-[23%] lg:mt-[28%] sm:mt-[40%]  xs:mt-20'>
         <div className='flex flex-col items-center '>
           <h2 className='xs:px-5'><img src={section10} alt="" /></h2>
           <hr className='w-12 border-2 mx-auto mt-5 border-[#FD749B] rounded-md' />
