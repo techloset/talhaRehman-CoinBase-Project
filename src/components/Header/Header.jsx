@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '../../images/Logo.svg'
 import { Link } from 'react-router-dom'
 import { useState } from "react";
+import drop from '../../images/Dropdown.svg'
 
 
 const Header = () => {
@@ -35,9 +36,14 @@ const Header = () => {
           </ul>
 
         </div>
-        <div className="login flex justify-center col-span-5 my-auto ml-28 sm:hidden lg:flex xs:hidden">
+        <div className="login flex justify-center col-span-5 my-auto ml-28 sm:hidden lg:flex xs:hidden relative">
           <h3 className='text-[#333]  text-base font-bold text-center my-auto '>Sell bitcoin/Giftcard</h3>
-          <button className='login-header text-white rounded-3xl text-center h-14 w-40 ml-14 px-7'>Login</button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6" viewBox="0 0 8 6" fill="none" className='inline mt-6 ml-2'>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.82673 5.12603C4.42977 5.70824 3.57124 5.70824 3.17428 5.12603L0.745171 1.56334C0.292575 0.899528 0.767979 0 1.5714 0H6.42961C7.23303 0 7.70844 0.899529 7.25584 1.56334L4.82673 5.12603Z" fill="#333333" />
+          </svg>
+          {/*  */}
+          <img src={drop} alt="" className='absolute top-10 right-[90px] 2xl:hidden xl:block sm:hidden xs:hidden ' />
+          <button className='login-header text-white rounded-3xl text-center h-14 w-40 ml-14 px-7 uppercase'>Login</button>
         </div>
       </div>
 

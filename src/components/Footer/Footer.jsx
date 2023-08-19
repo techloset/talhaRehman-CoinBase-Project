@@ -11,8 +11,8 @@ function Footer() {
                 <div className='grid grid-cols-12  gap-1 py-20 max-w-[90%] mx-auto'>
                     <div className='lg:col-span-4 sm:col-span-6 xs:col-span-12 p-4'>
                         <div><img src={footer_logo} alt="logo"  /></div>
-                        <div className='mt-10 w-[60%] xs:w-[90%]'>
-                            <p className='text-[#A2A2A2] text-sm font-normal text-justify leading-7'> Fusce ut elit aliquet, fermentum leo vel, tempus nunc. Fusce eu rhoncus augue. Fusce vel metus pharetra, fermentum</p>
+                        <div className='mt-10 w-[82%] xs:w-[90%]'>
+                            <p className='text-[#A2A2A2] text-sm font-normal text-justify leading-6'> Fusce ut elit aliquet, fermentum leo vel, tempus nunc. Fusce eu rhoncus augue. Fusce vel metus pharetra, fermentum</p>
                         </div>
                         <div className='mt-8'>
                             <div className="footer-social-icon">
@@ -23,7 +23,7 @@ function Footer() {
                     <div className='lg:col-span-2 sm:col-span-6 sm:mt-3 lg:mt-0 xs:col-span-12 xs:ml-4 xs:mt-8'>
                         <div><h2 className='font-medium text-lg'>CoinBase Links</h2></div>
                         <div className='mt-8'>
-                            <ul className='text-[#A2A2A2] flex flex-col gap-4'>
+                            <ul className='text-[#A2A2A2] text-xs  flex flex-col gap-4'>
                                 <li>Home</li>
                                 <li>About Us</li>
                                 <li>Blog</li>
@@ -35,13 +35,13 @@ function Footer() {
                     <div className='lg:col-span-2 sm:col-span-6 sm:mt-10 lg:mt-0 xs:col-span-12 xs:ml-4 xs:mt-8'>
                         <div><h2 className='font-medium text-lg'>Contact Us</h2></div>
                         <div className='mt-8'>
-                            <ul className='text-[#A2A2A2] flex flex-col gap-4'>
+                            <ul className='text-[#A2A2A2] text-xs flex flex-col gap-4'>
                                 <li><a href="tel:(+234) 137632128">
                                     (+234) 137632128
                                 </a>
                                 </li>
                                 <li><a href="mailto:coinbase@yahoo.com">Coinbase@yahoo.com</a></li>
-                                <li><address className='pb-6'>Address goes here</address></li>
+                                <li><address className='pb-6 not-italic'>Address goes here</address></li>
                                 <li></li>
                                 <li>Download Our App</li>
                             </ul>

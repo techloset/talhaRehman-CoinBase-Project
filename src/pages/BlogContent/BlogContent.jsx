@@ -73,7 +73,7 @@ function BlogContent() {
                         How to sell your iTunes giftcard with us
                     </h3></div>
                     <div className='flex justify-end xs:justify-start'>
-                        <img src={Exchange5} alt="Exchange 5 Products and get 1 free product" />
+                        <h2 className='font-bold text-[18px] xl:w-[60%] sm:leading-[25px] sm:w-[85%]  lg:mx-0 sm:mx-auto xs:text-xl   xs:w-[80%] bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent xs:text-center sm:text-center'> Exchange 5 products and get 1 free product</h2>
                     </div>
                     <div>
                         <span className='text-xs text-gray-400 xs:text-left'>Prev Post</span>
@@ -87,9 +87,9 @@ function BlogContent() {
                     <h2 className='font-bold text-2xl'>Leave A Comment</h2>
                     <p className='font-normal text-base mt-3 text-[#333333]'>Your email address will not be published. Required fields are marked *</p>
                     <form action="" className='mt-6 mb-14'>
-                        <input type="text" placeholder='Name *' className=' px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full ' required/>
-                        <input type="Email" placeholder='Email *' className=' md:ml-3 px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full xs:mt-4 sm:mt-4 xs:ml-0 sm:ml-0  ' required/>
-                        <textarea rows="8" name="message" id="message" placeholder="Your Comment" class="w-full mt-8 px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"></textarea>
+                        <input type="text" placeholder='Name *' className=' px-5 py-5 placeholder-[#2F2F2F] border border-[#D1D1D1] rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full ' required/>
+                        <input type="Email" placeholder='Email *' className=' md:ml-3 px-5 py-5 placeholder-[#2F2F2F] border border-[#D1D1D1]  rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full xs:mt-4 sm:mt-4 xs:ml-0 sm:ml-0  ' required/>
+                        <textarea rows="8" name="message" id="message" placeholder="Your Comment" class="w-full mt-[30px] px-5 py-5 placeholder-[#2F2F2F] border border-[#D1D1D1]  rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"></textarea>
                     <button type='submit' className='mt-3'>
                         <img src={Publish} alt="Publish" />
                     </button>

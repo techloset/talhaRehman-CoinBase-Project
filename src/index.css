@@ -88,4 +88,10 @@ box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.10);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+    .landingColor{
+        background: var(--3, linear-gradient(185deg, #FD749B 0%, #281AC8 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
 }

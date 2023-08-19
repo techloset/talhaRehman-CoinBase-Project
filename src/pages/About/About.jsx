@@ -11,15 +11,15 @@ import AboutQual from '../../images/Qualities.svg'
 function About() {
     return (
         <>
-            <div className="heroBg min-h-[130vh]  lg:flex lg:justify-around sm:grid  sm:grid-cols-1 xs:grid  xs:grid-cols-1 ">
+            <div className="heroBg lg:min-h-[100vh] sm:min-h-[120vh]  xs:min-h-[120vh] lg:flex lg:justify-around sm:grid  sm:grid-cols-1 xs:grid  xs:grid-cols-1 ">
 
                 <div className='lg:w-[34%] sm:w-[50%] xs:w-[85%] xs:mx-auto mt-48 xs:mt-16 sm:mx-auto lg:mx-0 lg:ml-24'>
-                    <div className='text-white text-xs mb-5'><span>HOME/ABOUT</span></div>
+                    <div className='text-white text-xs mb-5'><span>HOME/ABOUT US</span></div>
                     <h2 className='lg:text-[40px] text-3xl xs:text-3xl text-white font-bold  leading-normal'>
                         Great service,
                         Professional support
                     </h2>
-                    <p className='mt-8 leading-9 text-lg text-white font-normal w-[89%]'>CoinBase is a platform for trading your bitcoin and
+                    <p className='mt-8 leading-9 text-lg text-white font-normal w-[92%]'>CoinBase is a platform for trading your bitcoin and
                         giftcard at the best rate, why not give us a trial.
                     </p>
 
@@ -29,7 +29,7 @@ function About() {
                 </div>
             </div>
             {/* Section 1 */}
-            <div className='lg:w-[35%] sm:w-[60%] xs:w-[90%] mx-auto sm:mt-10 lg:mt-0'>
+            <div className='lg:w-[34%] sm:w-[60%] xs:w-[90%] mx-auto sm:mt-10 lg:mt-0'>
                 <h2 className='text-center font-bold text-lg bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent'>
                     “Morbi sagittis ultricies ex, a tempus lorem suscipit non. Donec semper leo ut lobortis condimentum. Orci varius natoque penatibus et magnis”
 
@@ -46,15 +46,15 @@ function About() {
                     <hr className='w-16 border-4 border-pink-500 rounded-xl mt-5 text-center mx-auto' />
                     <div className='lg:w-[45%] sm:w-[80%] xs:w-[90%] leading-10 mt-6 font-normal text-base'><p className='text-center'>CoinBase is an online site and a p2admin platform that allows users to buy, sell and/ or exchange digital and fiat assets safely. Owned and managed by CoinBase Business Services established and Incoperated in Nigeria.
                     </p></div>
-                    <div className='mt-10 mb-8 xs:px-4'> <img src={AboutQual} alt="" /></div>
+                    <div className='mt-10 mb-14 xs:px-4'> <img src={AboutQual} alt="" /></div>
                 </div>
             </div>
 
 
             {/* History */}
             <div>
-                <div className="flex justify-center sm:mt-24 sm:w-[80%] sm:mx-auto xs:mt-24 xs:w-[80%] xs:mx-auto mt-32 text-pink-400 sm:text-[28px] xs:text-[28px] text-5xl leading-[65px] font-bold">
-                    Our History
+                <div className="flex justify-center sm:mt-24 sm:w-[80%] sm:mx-auto xs:mt-24 xs:w-[80%] xs:mx-auto lg:mt-[107px] bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent sm:text-[28px] xs:text-[28px] text-5xl leading-[65px] font-bold">
+                    Our history
                 </div>
                 <hr className='w-16 border-2 border-pink-500 rounded-sm mt-5 text-center mx-auto' />
                 <div className="flex justify-center   mt-[100px]">
@@ -127,11 +127,11 @@ function About() {
                 <div className='flex flex-col items-center '>
                     <h2 className='xs:px-3'><img src={sub} alt="" /></h2>
                     <hr className='w-12 border-2 mx-auto mt-5 border-[#FD749B] rounded-md' />
-                    <div className='w-[30%] xs:w-[70%] mt-7'>
+                    <div className='w-[25%] xs:w-[70%] mt-7'>
                         <p className='text-base text-center font-normal leading-loose'>Subscribe to our newsletter for daily/weekly update of our products and services.</p>
                     </div>
                 </div>
-                <div className='flex justify-center my-12  mb-36'>
+                <div className='flex justify-center my-12  mb-24'>
                     <form action="" className='flex justify-center xs:grid xs:gap-4'>
                         <input type="Email" placeholder='Email *' className=' mx-8 px-3 py-2 placeholder-gray-500 border border-pink-300 rounded-[100px] focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 w-96 xs:w-[90%]  ' required />
                         <button type='submit' className='self-center xs:mx-auto'><img src={discover} alt="" className='' /></button>
