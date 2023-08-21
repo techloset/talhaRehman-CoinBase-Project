@@ -40,7 +40,7 @@ function Blog() {
     return (
         <>
 
-            <div className="heroBg lg:min-h-[100vh] sm:min-h-[140vh] xs:min-h-[140vh]  lg:flex lg:justify-around sm:grid  sm:grid-cols-1 xs:grid  xs:grid-cols-1  ">
+            <div className="heroBg lg:min-h-[110vh]   sm:min-h-[140vh] xs:min-h-[140vh]  lg:flex lg:justify-around sm:grid  sm:grid-cols-1 xs:grid  xs:grid-cols-1  ">
 
                 <div className='lg:w-[34%] sm:w-[50%] xs:w-[85%] xs:mx-auto mt-48 xs:mt-16 sm:mx-auto lg:mx-0 lg:ml-24'>
                     <div className='text-white text-xs mb-5'><span>HOME/BLOG</span></div>

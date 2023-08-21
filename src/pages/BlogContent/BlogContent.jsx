@@ -82,20 +82,20 @@ function BlogContent() {
                     <span className='text-xs text-gray-400  flex justify-end xs:justify-start'>Next Post</span>
                     </div>
                 </div>
-
-                <div className='mt-24'>
+            </div>
+                <div className='mt-24 lg:mt-[114px]  xs:max-w-[90%] sm:max-w-[80%] xl:w-[58%] mx-auto xl:ml-[358px] 2xl:mx-auto '>
                     <h2 className='font-bold text-2xl'>Leave A Comment</h2>
                     <p className='font-normal text-base mt-3 text-[#333333]'>Your email address will not be published. Required fields are marked *</p>
-                    <form action="" className='mt-6 mb-14'>
-                        <input type="text" placeholder='Name *' className=' px-5 py-5 placeholder-[#2F2F2F] border border-[#D1D1D1] rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full ' required/>
-                        <input type="Email" placeholder='Email *' className=' md:ml-3 px-5 py-5 placeholder-[#2F2F2F] border border-[#D1D1D1]  rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 md:w-[48%] xs:w-full sm:w-full xs:mt-4 sm:mt-4 xs:ml-0 sm:ml-0  ' required/>
+                    <form action="" className='mt-6 mb-14 lg:mb-[115px]'>
+                        <input type="text" placeholder='Name *' className=' px-5 py-5 placeholder-[#2F2F2F] border border-[#D1D1D1] rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 xl:w-[47%] md:w-[48%]  xs:w-full sm:w-full ' required/>
+                        <input type="Email" placeholder='Email *' className=' md:ml-3 xl:ml-[46px] px-5 py-5 placeholder-[#2F2F2F] border border-[#D1D1D1]  rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 xl:w-[47%] md:w-[48%] xs:w-full sm:w-full xs:mt-4 sm:mt-4 xs:ml-0 sm:ml-0  ' required/>
                         <textarea rows="8" name="message" id="message" placeholder="Your Comment" class="w-full mt-[30px] px-5 py-5 placeholder-[#2F2F2F] border border-[#D1D1D1]  rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"></textarea>
-                    <button type='submit' className='mt-3'>
+                    <button type='submit' className='lg:mt-[50px] mt-5'>
                         <img src={Publish} alt="Publish" />
                     </button>
                     </form>
                 </div>
-            </div>
+            
         </>
     )
 }

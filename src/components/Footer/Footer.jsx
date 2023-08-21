@@ -8,10 +8,10 @@ function Footer() {
     return (
         <>
             <div className='bg-[#151515] text-white'>
-                <div className='grid grid-cols-12  gap-1 py-20 max-w-[90%] mx-auto'>
-                    <div className='lg:col-span-4 sm:col-span-6 xs:col-span-12 p-4'>
+                <div className='grid grid-cols-12  gap-1 py-20  max-w-[90%] mx-auto'>
+                    <div className='xl:col-span-5 lg:col-span-4 sm:col-span-6 xs:col-span-12 p-4 '>
                         <div><img src={footer_logo} alt="logo"  /></div>
-                        <div className='mt-10 w-[82%] xs:w-[90%]'>
+                        <div className='mt-10 w-[70%] xs:w-[90%]'>
                             <p className='text-[#A2A2A2] text-sm font-normal text-justify leading-6'> Fusce ut elit aliquet, fermentum leo vel, tempus nunc. Fusce eu rhoncus augue. Fusce vel metus pharetra, fermentum</p>
                         </div>
                         <div className='mt-8'>
@@ -20,7 +20,7 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className='lg:col-span-2 sm:col-span-6 sm:mt-3 lg:mt-0 xs:col-span-12 xs:ml-4 xs:mt-8'>
+                    <div className='lg:col-span-2 sm:col-span-6 sm:mt-3 lg:mt-0 xs:col-span-12 xs:ml-4 xs:mt-8 '>
                         <div><h2 className='font-medium text-lg'>CoinBase Links</h2></div>
                         <div className='mt-8'>
                             <ul className='text-[#A2A2A2] text-xs  flex flex-col gap-4'>
@@ -32,7 +32,7 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className='lg:col-span-2 sm:col-span-6 sm:mt-10 lg:mt-0 xs:col-span-12 xs:ml-4 xs:mt-8'>
+                    <div className='lg:col-span-2 sm:col-span-6 sm:mt-10 lg:mt-0 xs:col-span-12 xs:ml-4 xs:mt-8 '>
                         <div><h2 className='font-medium text-lg'>Contact Us</h2></div>
                         <div className='mt-8'>
                             <ul className='text-[#A2A2A2] text-xs flex flex-col gap-4'>
@@ -47,9 +47,9 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className='lg:col-span-4 sm:col-span-6 xs:col-span-12 lg:ml-24 sm:mt-10 lg:mt-0 xs:ml-4 xs:mt-8'>
+                    <div className='xl:col-span-3 lg:col-span-4 sm:col-span-6 xs:col-span-12 lg:ml-24 sm:mt-10 lg:mt-0 xs:ml-4 xs:mt-8 '>
                     <div><h2 className='font-medium text-lg'>CoinBase Instagram</h2></div>
-                        <div className='mt-8 flex flex-wrap gap-3 max-w-xs'>
+                        <div className='mt-8 flex flex-wrap gap-3 max-w-xs '>
                             <img src={mask_2} alt="Instagram Mask" />
                             <img src={mask_2} alt="Instagram Mask" />
                             <img src={mask_2} alt="Instagram Mask" />

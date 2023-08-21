@@ -1,12 +1,14 @@
 import React from 'react'
 import Logo from '../../images/Logo.svg'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import { useState } from "react";
 import drop from '../../images/Dropdown.svg'
 
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
+
   return (
     <>
       <div className='grid grid-cols-12 max-w-[87%] mx-auto py-[2.35rem] xs:hidden'>
@@ -20,24 +22,28 @@ const Header = () => {
           </svg>
         </button>
         <div className="navigation lg:col-span-4 sm:col-span-6 my-auto xs:hidden" id="navbar-default">
-          <ul className='flex lg:justify-between my-auto sm:justify-evenly'>
-            <li className='text-[#333]  text-base font-bold '>
-              <Link to="./" >
+          <ul className='flex lg:justify-between my-auto sm:justify-evenly '>
+            <li className='text-[#333]  text-base font-bold '  >
+              <NavLink to="./" >
                 Home
-              </Link>
+                <div className='underline1'></div>
+              </NavLink>
             </li>
-            <li className='text-[#333]  text-base font-bold '><Link to="/about">About Us</Link></li>
+            <li className='text-[#333]  text-base font-bold '><NavLink to="/about" >About Us
+            <div className='underline1'></div>
+            </NavLink></li>
             <li className='text-[#333]  text-base font-bold '>
-              <Link to="./blog">
+              <NavLink to="./blog" >
                 Blog
-              </Link>
+                <div className='underline1'></div>
+              </NavLink>
             </li>
             <li className='text-[#333]  text-base font-bold '>Contact Us</li>
           </ul>
 
         </div>
         <div className="login flex justify-center col-span-5 my-auto ml-28 sm:hidden lg:flex xs:hidden relative">
-          <h3 className='text-[#333]  text-base font-bold text-center my-auto '>Sell bitcoin/Giftcard</h3>
+          <h3 className='text-[#333]  text-base font-bold text-center my-auto '>Sell Bitcoin/ Giftcard</h3>
           <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6" viewBox="0 0 8 6" fill="none" className='inline mt-6 ml-2'>
             <path fill-rule="evenodd" clip-rule="evenodd" d="M4.82673 5.12603C4.42977 5.70824 3.57124 5.70824 3.17428 5.12603L0.745171 1.56334C0.292575 0.899528 0.767979 0 1.5714 0H6.42961C7.23303 0 7.70844 0.899529 7.25584 1.56334L4.82673 5.12603Z" fill="#333333" />
           </svg>

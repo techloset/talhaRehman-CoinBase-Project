@@ -44,7 +44,7 @@ function About() {
 
                     <div className='mt-10'><h2 className='font-bold text-3xl xs:text-2xl xs:text-center fontcolorabout text-center '>About CoinBase</h2></div>
                     <hr className='w-16 border-4 border-pink-500 rounded-xl mt-5 text-center mx-auto' />
-                    <div className='lg:w-[45%] sm:w-[80%] xs:w-[90%] leading-10 mt-6 font-normal text-base'><p className='text-center'>CoinBase is an online site and a p2admin platform that allows users to buy, sell and/ or exchange digital and fiat assets safely. Owned and managed by CoinBase Business Services established and Incoperated in Nigeria.
+                    <div className='lg:w-[50%] sm:w-[80%] xs:w-[90%] leading-10 mt-6 font-normal text-base'><p className='text-center'>CoinBase is an online site and a p2admin platform that allows users to buy, sell and/ or exchange digital and fiat assets safely. Owned and managed by CoinBase Business Services established and Incoperated in Nigeria.
                     </p></div>
                     <div className='mt-10 mb-14 xs:px-4'> <img src={AboutQual} alt="" /></div>
                 </div>
@@ -59,22 +59,22 @@ function About() {
                 <hr className='w-16 border-2 border-pink-500 rounded-sm mt-5 text-center mx-auto' />
                 <div className="flex justify-center   mt-[100px]">
                     <div className="lg:ml-14 lg:mr-5">
-                        <div className="lg:mt-5 lg:w-[400px] lg:h-[200px] sm:w-[80%] sm:mx-auto xs:w-[80%] xs:mx-auto">
+                        <div className="lg:mt-5 lg:w-[418px] lg:h-[211px] sm:w-[80%] sm:mx-auto xs:w-[80%] xs:mx-auto">
                             <div className="flex lg:justify-end sm:justify-center xs:justify-center  text-pink-400  sm:text-[28px] xs:text-[28px] text-4xl font-bold">
                                 May 2010
                             </div>
-                            <div className="mt-5 lg-text-right sm:text-center sm:text-[14px] xs:text-[14px]  text-2xl leading-[30px]">
+                            <div className="mt-5 lg:text-right sm:text-center sm:text-[14px] xs:text-[14px]  leading-[30px]">
                                 Ut enim mi, mattis at sollicitudin rhoncus, rhoncus eget sem.
                                 Curabitur aliquam tellus eu nisl suscipit, at vestibulum ex rutrum.
                                 Nulla facilisi. Cras ullamcorper pellentesque orci, nec vestibulum
                                 nibh.uspendisse
                             </div>
                         </div>
-                        <div className="lg:mt-[230px] lg:w-[400px] lg:h-[200px] sm:w-[80%] sm:mx-auto sm:text-center sm:mt-9 xs:w-[80%] xs:mx-auto xs:text-center xs:mt-9">
+                        <div className="lg:mt-[230px] lg:w-[418px] lg:h-[200px] sm:w-[80%] sm:mx-auto sm:text-center sm:mt-9 xs:w-[80%] xs:mx-auto xs:text-center xs:mt-9">
                             <div className="flex lg:justify-end sm:justify-center xs:justify-center  text-pink-400 sm:text-[28px] xs:text-[28px] text-4xl font-bold">
                                 May 2019
                             </div>
-                            <div className="mt-5 lg:text-right sm:text-center sm:text-[14px]  xs:text-[14px] text-2xl leading-[30px]">
+                            <div className="mt-5 lg:text-right sm:text-center sm:text-[14px]  xs:text-[14px]  leading-[30px]">
                                 Ut enim mi, mattis at sollicitudin rhoncus, rhoncus eget sem.
                                 Curabitur aliquam tellus eu nisl suscipit, at vestibulum ex rutrum.
                                 Nulla facilisi. Cras ullamcorper pellentesque orci, nec vestibulum
@@ -86,7 +86,7 @@ function About() {
                         <img className="ml-14" src={tree} alt="" />
                         <div className="mt-5 text-center font-bold uppercase">To be continue…</div>
                     </div>
-                    <div className="lg:mt-[240px] lg:w-[400px] lg:h-[200px] sm:hidden lg:block xs:hidden">
+                    <div className="lg:mt-[240px] lg:w-[418px] lg:h-[200px] sm:hidden lg:block xs:hidden">
                         <div className="text-pink-400 sm:text-[28px] text-4xl font-bold">
                             May 2017
                         </div>
@@ -104,8 +104,8 @@ function About() {
             <div className='mt-20 '>
                 <div className='flex flex-col items-center justify-center'>
                     <h2 className='font-bold text-3xl bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent'>Meet the team</h2>
-                    <hr className='w-12 border-2 mx-auto mt-5 border-[#FD749B] rounded-md' />
-                    <p className='w-[35%] text-center mt-4'>Meet the team that  makes the process of this system fast and painless as possible to provide you with good result </p>
+                    <hr className='w-12 border-2 mx-auto mt-7 border-[#FD749B] rounded-md' />
+                    <p className='w-[35%] text-center mt-4 leading-[40px]'>Meet the team that  makes the process of this system fast and painless as possible to provide you with good result </p>
                 </div>
 
                 <div className='mt-10 w-[90%] mx-auto'>
