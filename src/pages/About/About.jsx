@@ -116,7 +116,7 @@ function About() {
                         <div className='text-white ml-5 mb-5'>CEO <br />
                             Amanda Roth </div>
                     </div>
-                    <div className='bg-[#C4C4C4] rounded-xl ml-[-50px] w-[300px] h-[230px] mt-[85px] xs:hidden '></div>
+                    <div className='shadowabout -z-10 bg-[#C4C4C4] rounded-xl ml-[-50px] w-[300px] h-[230px] mt-[85px] xs:hidden '></div>
                     <div className='bg-[#C4C4C4] rounded-xl w-[300px] h-[185px] ml-[-130px] mt-[110px] xs:hidden'></div>
                 </div>
                 </div>
