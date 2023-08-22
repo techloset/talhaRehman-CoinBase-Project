@@ -110,14 +110,14 @@ function About() {
 
                 <div className='mt-10 w-[90%] mx-auto'>
                 <div className='flex justify-center'>
-                    <div className='bg-[#C4C4C4] rounded-xl w-[300px] h-[185px] mt-[110px] xs:hidden'></div>
+                    <div className='shadowabout bg-[#C4C4C4] rounded-xl w-[300px] h-[185px] mt-[110px] xs:hidden'></div>
                     <div className='shadowabout bg-[#C4C4C4] relative ml-[-130px] rounded-xl w-[300px] h-[230px] mt-[85px] xs:hidden'></div>
                     <div className='shadowabout flex items-end xs:mx-auto bg-gradient-to-b from-[#ed9eb5] to-[#7e78bd] relative ml-[-50px] rounded-xl w-[300px] h-[285px] mt-[60px]'>
                         <div className='text-white ml-5 mb-5'>CEO <br />
                             Amanda Roth </div>
                     </div>
                     <div className='shadowabout -z-10 bg-[#C4C4C4] rounded-xl ml-[-50px] w-[300px] h-[230px] mt-[85px] xs:hidden '></div>
-                    <div className='bg-[#C4C4C4] rounded-xl w-[300px] h-[185px] ml-[-130px] mt-[110px] xs:hidden'></div>
+                    <div className='shadowabout -z-20 bg-[#C4C4C4] rounded-xl w-[300px] h-[185px] ml-[-130px] mt-[110px] xs:hidden'></div>
                 </div>
                 </div>
             </div>
