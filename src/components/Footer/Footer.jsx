@@ -32,7 +32,7 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className='lg:col-span-2 sm:col-span-6 sm:mt-10 lg:mt-0 xs:col-span-12 xs:ml-4 xs:mt-8 '>
+                    <div className='xl:col-span-1 lg:col-span-2 sm:col-span-6 sm:mt-10 lg:mt-0 xs:col-span-12 xs:ml-4 xs:mt-8 xl:w-[120%]'>
                         <div><h2 className='font-medium text-lg'>Contact Us</h2></div>
                         <div className='mt-8'>
                             <ul className='text-[#A2A2A2] text-xs flex flex-col gap-4'>
@@ -47,7 +47,7 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className='xl:col-span-3 lg:col-span-4 sm:col-span-6 xs:col-span-12 lg:ml-24 sm:mt-10 lg:mt-0 xs:ml-4 xs:mt-8 '>
+                    <div className='xl:col-span-4 lg:col-span-4 sm:col-span-6 xs:col-span-12 lg:ml-24 sm:mt-10 lg:mt-0 xs:ml-4 xs:mt-8 '>
                     <div><h2 className='font-medium text-lg'>CoinBase Instagram</h2></div>
                         <div className='mt-8 flex flex-wrap gap-3 max-w-xs '>
                             <img src={mask_2} alt="Instagram Mask" />

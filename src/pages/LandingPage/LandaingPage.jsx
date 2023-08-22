@@ -71,7 +71,7 @@ function LandaingPage() {
       {/* Section 3 */}
 
       <div className='heroBg2 min-h-[145vh] xs:hidden sm:hidden lg:block '>
-        <div className='xl:pt-[34%] lg:pt-[45%]'>
+        <div className='xl:pt-[32%] lg:pt-[45%]'>
           <div className='max-w-[77%] mx-auto bg-white pb-10 rounded-3xl'>
             <div className='flex justify-between py-7'>
               <h2><img src={OurRates} alt="" className='ml-[64px]' /></h2>
@@ -79,21 +79,21 @@ function LandaingPage() {
               <h2><img src={OurRates3} alt="" className='mr-[47px] pr-7' /></h2>
             </div>
 
-            <hr className='mt-4 border border-[#BBBBBB]' />
+            <hr className='mt-1 border border-[#BBBBBB]' />
             <div className='grid grid-cols-12'>
               <div className='col-span-4'>
                 <div className='mt-14'>
                   <div className='flex  justify-evenly'>
-                    <img src={smallbtc} alt="" />
-                    <p className='text-sm font-normal mt-4'>BTC</p>
+                    <img src={smallbtc} alt="" className='-mt-7' />
+                    <p className='text-sm font-normal mt-1'>BTC</p>
                     <div className='ml-3'>
                       <p className='mb-4'>We Buy @ <span className='font-bold text-sm'> ₦350/$ </span></p>
                       <p>We Sell @ <span className='font-bold text-sm'> ₦370/$ </span></p>
                     </div>
                   </div>
                   <div className='flex justify-evenly mt-12 '>
-                    <img src={eth} alt="" className='ml-4' />
-                    <p className='text-sm font-normal mt-4'>ETH</p>
+                    <img src={eth} alt="" className='ml-4 -mt-7' />
+                    <p className='text-sm font-normal mt-1'>ETH</p>
                     <div className='ml-6'>
                       <p className='mb-3'>We Buy @ <span className='font-bold text-sm'> ₦345/$ </span></p>
                       <p className='mt-4'>We Sell @ <span className='font-bold text-sm'> ₦370/$ </span></p>
@@ -103,7 +103,7 @@ function LandaingPage() {
                 </div>
               </div>
               <div className='col-span-4 mr-10'>
-                <div className='flex flex-col justify-center mt-10'>
+                <div className='flex flex-col justify-center mt-14'>
 
                   <div className='flex flex-wrap  justify-between items-center'>
                     <img src={bank} alt="" className='ml-1' />
@@ -132,11 +132,11 @@ function LandaingPage() {
               </div>
               <div className='col-span-3 flex flex-col justify-around items-center'>
                 <div>
-                  <button className='text-center text-white w-[85.67px] h-[24.2px] text-[8px] font-bold leading-[25px]  bg-gradient-to-b  from-[#FD749B]  to-[#281AC8] rounded-[5px]'>
+                  <button className='text-center mt-2 text-white w-[85.67px] h-[24px] text-[8px] font-bold leading-[25px]  bg-gradient-to-b  from-[#FD749B]  to-[#281AC8] rounded-[5px]'>
                     8 hours ago
                   </button>
                 </div>
-                <div className='flex -ml-28  justify-evenly items-center'>
+                <div className='flex -ml-28 mt-0  justify-evenly items-center'>
                   <p>Bitcoin BTC   <svg xmlns="http://www.w3.org/2000/svg" width="15" height="6" viewBox="0 0 15 6" fill="none" className='inline mx-2'>
                     <path d="M0.256782 3.84489H11.279V5.38288C11.279 5.45232 11.3043 5.51231 11.355 5.56312C11.4058 5.6139 11.4659 5.63924 11.5353 5.63924C11.6101 5.63924 11.6715 5.61525 11.7194 5.56716L14.2828 3.00388C14.3307 2.95582 14.3547 2.89437 14.3547 2.81969C14.3547 2.74486 14.3307 2.68339 14.2826 2.63544L11.7275 0.0801288C11.6634 0.0266535 11.5992 0 11.5351 0C11.4604 0 11.3989 0.0240163 11.351 0.0720488C11.3029 0.120165 11.279 0.181496 11.279 0.256294V1.79429H0.256782C0.187371 1.79429 0.127303 1.81962 0.0765768 1.87037C0.0258511 1.92113 0.000488281 1.98117 0.000488281 2.05058V3.58857C0.000488281 3.65798 0.0258231 3.71805 0.0765768 3.76878C0.127331 3.8195 0.187371 3.84489 0.256782 3.84489Z" fill="url(#paint0_linear_32_2837)" />
                     <defs>
@@ -148,7 +148,7 @@ function LandaingPage() {
                   </svg>    Bank
                     <p> Transfer NGN</p></p>
                 </div>
-                <div className='-ml-2'>
+                <div className='-ml-2 mt-14'>
                   <span className='font-bold'>  1.16</span> BTC <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11" fill="none" className='inline mx-1'>
                     <path d="M0.25727 3.84489H11.2795V5.38288C11.2795 5.45232 11.3048 5.51231 11.3555 5.56312C11.4063 5.6139 11.4664 5.63924 11.5358 5.63924C11.6106 5.63924 11.672 5.61525 11.7199 5.56716L14.2833 3.00388C14.3312 2.95582 14.3552 2.89437 14.3552 2.81969C14.3552 2.74486 14.3312 2.68339 14.2831 2.63544L11.728 0.0801288C11.6638 0.0266535 11.5997 0 11.5356 0C11.4609 0 11.3994 0.0240163 11.3514 0.0720488C11.3034 0.120165 11.2794 0.181496 11.2794 0.256294V1.79429H0.25727C0.187859 1.79429 0.127791 1.81962 0.0770651 1.87037C0.0263394 1.92113 0.000976562 1.98117 0.000976562 2.05058V3.58857C0.000976562 3.65798 0.0263113 3.71805 0.0770651 3.76878C0.127819 3.8195 0.187859 3.84489 0.25727 3.84489Z" fill="url(#paint0_linear_32_2832)" />
                     <path d="M14.0985 6.92105H3.07635V5.383C3.07635 5.31359 3.05096 5.25352 3.00026 5.2028C2.94951 5.15204 2.88941 5.12671 2.82003 5.12671C2.7452 5.12671 2.68384 5.15072 2.63578 5.19876L0.0725367 7.7619C0.0245886 7.8101 0.000488281 7.87137 0.000488281 7.94628C0.000488281 8.01561 0.0244764 8.07444 0.0725367 8.12234L2.62782 10.6857C2.69192 10.7391 2.756 10.7657 2.82011 10.7657C2.8895 10.7657 2.94959 10.7404 3.00032 10.6897C3.05102 10.6389 3.07641 10.5789 3.07641 10.5094V8.97149H14.0985C14.168 8.97149 14.2279 8.94627 14.2788 8.89546C14.3295 8.84465 14.3547 8.78466 14.3547 8.71514V7.1772C14.3547 7.10776 14.3294 7.04778 14.2788 6.99708C14.2279 6.94638 14.168 6.92105 14.0985 6.92105Z" fill="url(#paint1_linear_32_2832)" />

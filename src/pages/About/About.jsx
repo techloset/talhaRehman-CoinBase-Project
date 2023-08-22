@@ -56,8 +56,8 @@ function About() {
                 <div className="flex justify-center sm:mt-24 sm:w-[80%] sm:mx-auto xs:mt-24 xs:w-[80%] xs:mx-auto lg:mt-[107px] bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent sm:text-[28px] xs:text-[28px] text-5xl leading-[65px] font-bold">
                     Our history
                 </div>
-                <hr className='w-16 border-2 border-pink-500 rounded-sm mt-5 text-center mx-auto' />
-                <div className="flex justify-center   mt-[100px]">
+                <hr className='w-16 border-2 border-pink-500 rounded-sm mt-0 text-center mx-auto' />
+                <div className="flex justify-center   mt-[86px]">
                     <div className="lg:ml-14 lg:mr-5">
                         <div className="lg:mt-5 lg:w-[418px] lg:h-[211px] sm:w-[80%] sm:mx-auto xs:w-[80%] xs:mx-auto">
                             <div className="flex lg:justify-end sm:justify-center xs:justify-center  text-pink-400  sm:text-[28px] xs:text-[28px] text-4xl font-bold">
@@ -104,19 +104,19 @@ function About() {
             <div className='mt-20 '>
                 <div className='flex flex-col items-center justify-center'>
                     <h2 className='font-bold text-3xl bg-gradient-to-b from-[#FD749B]  to-[#281AC8] bg-clip-text text-transparent'>Meet the team</h2>
-                    <hr className='w-12 border-2 mx-auto mt-7 border-[#FD749B] rounded-md' />
-                    <p className='w-[35%] text-center mt-4 leading-[40px]'>Meet the team that  makes the process of this system fast and painless as possible to provide you with good result </p>
+                    <hr className='w-12 border-2 mx-auto mt-5 border-[#FD749B] rounded-md' />
+                    <p className='w-[35%] text-center mt-5 leading-[40px]'>Meet the team that  makes the process of this system fast and painless as possible to provide you with good result </p>
                 </div>
 
                 <div className='mt-10 w-[90%] mx-auto'>
                 <div className='flex justify-center'>
                     <div className='bg-[#C4C4C4] rounded-xl w-[300px] h-[185px] mt-[110px] xs:hidden'></div>
-                    <div className='bg-[#C4C4C4] relative ml-[-130px] rounded-xl w-[300px] h-[230px] mt-[85px] xs:hidden'></div>
-                    <div className='flex items-end xs:mx-auto bg-gradient-to-b from-[#ed9eb5] to-[#7e78bd] relative ml-[-50px] rounded-xl w-[300px] h-[285px] mt-[60px]'>
+                    <div className='shadowabout bg-[#C4C4C4] relative ml-[-130px] rounded-xl w-[300px] h-[230px] mt-[85px] xs:hidden'></div>
+                    <div className='shadowabout flex items-end xs:mx-auto bg-gradient-to-b from-[#ed9eb5] to-[#7e78bd] relative ml-[-50px] rounded-xl w-[300px] h-[285px] mt-[60px]'>
                         <div className='text-white ml-5 mb-5'>CEO <br />
                             Amanda Roth </div>
                     </div>
-                    <div className='bg-[#C4C4C4] rounded-xl ml-[-50px] w-[300px] h-[230px] mt-[85px] xs:hidden'></div>
+                    <div className='bg-[#C4C4C4] rounded-xl ml-[-50px] w-[300px] h-[230px] mt-[85px] xs:hidden '></div>
                     <div className='bg-[#C4C4C4] rounded-xl w-[300px] h-[185px] ml-[-130px] mt-[110px] xs:hidden'></div>
                 </div>
                 </div>
@@ -133,7 +133,7 @@ function About() {
                 </div>
                 <div className='flex justify-center my-12  mb-24'>
                     <form action="" className='flex justify-center xs:grid xs:gap-4'>
-                        <input type="Email" placeholder='Email *' className=' mx-8 px-3 py-2 placeholder-gray-500 border border-pink-300 rounded-[100px] focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 w-96 xs:w-[90%]  ' required />
+                        <input type="Email" placeholder='Email *' className=' mx-[9px] px-3 py-2 placeholder-gray-500 border border-pink-300 rounded-[100px] focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 w-96 xs:w-[90%]  ' required />
                         <button type='submit' className='self-center xs:mx-auto'><img src={discover} alt="" className='' /></button>
                     </form>
 

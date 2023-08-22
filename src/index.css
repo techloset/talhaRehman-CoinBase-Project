@@ -104,5 +104,8 @@
         margin: 0 auto;
         margin-top: 8px;
    }
+   .shadowabout{
+    filter: drop-shadow(0px 50px 100px rgba(0, 0, 0, 0.10));
+   }
   
 }
